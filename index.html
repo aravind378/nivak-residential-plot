@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Residential Plots</title>
+
+    <!-- links -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/4b4d66f7f6.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <!-- links -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+     
+</head>
+<body>
+
+
+  <!-- desktop navigation start -->
+  <header>
+
+    <div class="header-container">
+        <div class="logo">
+          <a href="">
+            <img src="./images/homelogo.jpeg" alt="Nskc Logo">
+          </a>
+        </div>
+
+        <div class="five-point">
+            <a href="">Home</a>
+            <a href="">About Us</a>
+            <a class="main-page" href="">Residential Plots</a>
+            <a href="">Project</a>
+            <a href="">Gallery</a>
+            <a href="">Contact Us</a>
+        </div>
+
+        <div class="s-i-u">
+            <div class="search">
+              <p><i class="fa-solid fa-magnifying-glass"></i></p>
+              <input type="search" placeholder="Search Anything.....">
+            </div>
+
+            <div class="ico">
+              <img src="./images/message.png" alt="">
+              <img src="./images/notification.png" alt="">
+            </div>
+
+            <div class="user-profile">
+              <img src="./images/user.png" alt="">
+              <div class="sub-user-profile">
+                <p class="user-name">Butcher</p>
+                <p class="user-mail">daddysHome@gmail.com</p>
+              </div>
+            </div>
+        </div>
+    </div>
+
+  </header>
+  <!-- desktop navigation end -->
+
+
+
+  <!-- Mobile Navigation Bar -->
+  <div class="mobileviewnav">
+    <nav class="navbar">
+      <div class="container-fluid">
+
+          <!-- Left toggle button (now opens RIGHT panel) start -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarRight" aria-controls="offcanvasNavbarRight"><img src="./Images/menu.png" alt="" class="left-menubar" width="40px"></button>
+          <!-- Left toggle button (now opens RIGHT panel) end -->
+
+          <!-- Left Offcanvas start -->
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbarLeft" aria-labelledby="offcanvasNavbarLeftLabel">
+                <div class="offcanvas-header">
+                      <img src="./Images/three.png" alt="">
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body">
+                      <div class="five-point">
+                        <a href=""><i class="fa-solid fa-house"></i>&nbsp; Home</a>
+                        <a href=""><i class="fa-solid fa-circle-user"></i>&nbsp; About Us</a>
+                        <a class="main-page" href=""><i class="fa-solid fa-sign-hanging"></i>&nbsp; Residential Plots</a>
+                        <a href=""><i class="fa-solid fa-diagram-project"></i>&nbsp; Project</a>
+                        <a href=""><i class="fa-solid fa-images"></i>&nbsp; Gallery</a>
+                        <a href=""><i class="fa-solid fa-address-book"></i>&nbsp; Contact Us</a>
+                      </div>
+                      
+                      <div class="header-mob-buttons">
+                        <a href="../student-login/index.php" class="login-btn">Post Property</a>
+                        <a href="../student-signup/index.php" class="signup-btn">Log In</a>
+                      </div>
+
+                      <hr>
+
+                      <div class="reccomended-you">
+                        <h3 class="recommended-head">Recommended For You!</h3>
+                        <a href="" class="recommended">New Projects</a>
+                        <a href="" class="recommended">Top Cities</a>
+                        <a href="" class="recommended">Commercial Plots</a>
+                        <a href="" class="recommended">Residential Plots</a>
+                        <a href="" class="recommended">Tools</a>
+                      </div>
+                </div>
+          </div>
+          <!-- Left Offcanvas end -->
+
+
+
+          <!-- center logo start -->
+          <div class="nivak-logo"><img src="./Images/homelogo.jpeg" alt="" width="60px"></div>
+          <!-- center logo end -->
+
+
+
+          <!-- Right toggle button (now opens LEFT panel) start -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarLeft" aria-controls="offcanvasNavbarLeft"><img src="./Images/menu.png" alt="" class="left-menubar" width="40px"></button>
+          <!-- Right toggle button (now opens LEFT panel) end -->
+
+          <!-- Right Offcanvas start -->
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbarRight" aria-labelledby="offcanvasNavbarRightLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarRightLabel">
+                  <img src="../images/main-logo.webp" alt="" width="80px">
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+
+              <div class="offcanvas-body">
+
+                  <p class="filter-heading"><span class="span1">Customer Filter</span> <span class="span2">Clear All</span></p>
+                  <div class="location-box">
+                      <div class="location">
+                        <p><i class="fa-solid fa-location-dot"></i></p>
+                        <input type="search" placeholder="Location">
+                      </div>
+
+                      <label for="">
+                        <input type="checkbox"> Jarkata, Indonesia
+                      </label>
+
+                      <label for="" class="second-label">
+                        <input type="checkbox"> Semarang, Indonesia
+                      </label>
+                  </div>
+
+                  <div class="location-box">
+                      <div class="location">
+                        <p><i class="fa-solid fa-coins"></i></p>
+                        <input type="search" placeholder="Price Range">
+                      </div>
+
+                      <label for="">
+                        <input type="radio" name="cash"> Under $1,000
+                      </label>
+
+                      <label for="" class="second-label">
+                        <input type="radio" name="cash"> $1,000 - $15,000
+                      </label>
+
+                      <label for="" class="second-label">
+                        <input type="radio" name="cash"> More Than $15,000
+                      </label>
+
+                      <label for="" class="second-label">
+                        <input type="radio" name="cash"> Custom
+                      </label>
+                  </div>
+
+                  <div class="location-box">
+                      <div class="location">
+                        <p><i class="fa-solid fa-square"></i></p>
+                        <input type="search" placeholder="Land Area">
+                      </div>
+
+                      <div class="min-max">
+                        <label for="" class="sub-min-max">
+                          <input type="text" name="" id="" placeholder="Min">
+                          <p>sq ft</p>
+                        </label>
+
+                        <label for="" class="sub-min-max">
+                          <input type="text" name="Min" id="" placeholder="Max">
+                          <p>sq ft</p>
+                        </label>
+                      </div>
+                  </div>
+
+                  <div class="location-box ">
+                      <div class="location">
+                        <p><i class="fa-solid fa-building"></i></p>
+                        <input type="search" placeholder="Type of Place">
+                      </div>
+
+                      <label for="">
+                        <input type="checkbox"> Single Family Home
+                      </label>
+
+                      <label for="" class="second-label">
+                        <input type="checkbox"> Condo / TownHouse
+                      </label>
+
+                      <label for="">
+                        <input type="checkbox"> Apartment
+                      </label>
+
+                      <label for="" class="second-label">
+                        <input type="checkbox"> Bungalow
+                      </label>
+                  </div>
+
+                  <div class="location-box final-location-box">
+                      <div class="location">
+                        <p><i class="fa-solid fa-layer-group"></i></p>
+                        <input type="search" placeholder="Amenities">
+                      </div>
+
+                      <div class="amenities">
+                        <button class="sub-amenities">Gardern</button>
+                        <button class="sub-amenities">Gym</button>
+                        <button class="sub-amenities">Garage</button>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+          <!-- Right Offcanvas end -->
+
+    </div>
+  </nav>
+</div>
+  <!-- mobile navigation end  -->
+
+
+
+    <!-- parent start -->
+    <div class="parent">
+
+        <!-- child start -->
+        <div class="child">
+
+
+
+            <!-- left child start -->
+            <div class="left-child">
+              <p class="filter-heading"><span class="span1">Customer Filter</span> <span class="span2">Clear All</span></p>
+
+
+              <div class="location-box">
+                  <div class="location">
+                    <p><i class="fa-solid fa-location-dot"></i></p>
+                    <input type="search" placeholder="Location">
+                  </div>
+
+                  <label for="">
+                    <input type="checkbox"> Jarkata, Indonesia
+                  </label>
+
+                  <label for="" class="second-label">
+                    <input type="checkbox"> Semarang, Indonesia
+                  </label>
+              </div>
+
+              <div class="location-box">
+                  <div class="location">
+                    <p><i class="fa-solid fa-coins"></i></p>
+                    <input type="search" placeholder="Price Range">
+                  </div>
+
+                  <label for="">
+                    <input type="radio" name="cash"> Under $1,000
+                  </label>
+
+                  <label for="" class="second-label">
+                    <input type="radio" name="cash"> $1,000 - $15,000
+                  </label>
+
+                  <label for="" class="second-label">
+                    <input type="radio" name="cash"> More Than $15,000
+                  </label>
+
+                  <label for="" class="second-label">
+                    <input type="radio" name="cash"> Custom
+                  </label>
+              </div>
+
+              <div class="location-box">
+                  <div class="location">
+                    <p><i class="fa-solid fa-square"></i></p>
+                    <input type="search" placeholder="Land Area">
+                  </div>
+
+                  <div class="min-max">
+                    <label for="" class="sub-min-max">
+                      <input type="text" name="" id="" placeholder="Min">
+                      <p>sq ft</p>
+                    </label>
+
+                    <label for="" class="sub-min-max">
+                      <input type="text" name="Min" id="" placeholder="Max">
+                      <p>sq ft</p>
+                    </label>
+                  </div>
+              </div>
+
+              <div class="location-box ">
+                  <div class="location">
+                    <p><i class="fa-solid fa-building"></i></p>
+                    <input type="search" placeholder="Type of Place">
+                  </div>
+
+                  <label for="">
+                    <input type="checkbox"> Single Family Home
+                  </label>
+
+                  <label for="" class="second-label">
+                    <input type="checkbox"> Condo / TownHouse
+                  </label>
+
+                  <label for="">
+                    <input type="checkbox"> Apartment
+                  </label>
+
+                  <label for="" class="second-label">
+                    <input type="checkbox"> Bungalow
+                  </label>
+              </div>
+
+              <div class="location-box final-location-box">
+                  <div class="location">
+                    <p><i class="fa-solid fa-layer-group"></i></p>
+                    <input type="search" placeholder="Amenities">
+                  </div>
+
+                  <div class="amenities">
+                    <button class="sub-amenities">Gardern</button>
+                    <button class="sub-amenities">Gym</button>
+                    <button class="sub-amenities">Garage</button>
+                  </div>
+              </div>
+
+            </div>
+            <!-- left child end -->
+
+
+            <!-- middle child start -->
+            <div class="middle-child">
+
+              <div class="sub-child-3-bottom">
+                <img src="./images/3.jpg" alt="">
+                <div class="position-profile">
+                    <div class="sub-position-profile">
+                      <div class="sub-position-profile-1">
+                        <p class="name"> Dream House Reality</p>
+                        <p class="sub-name"> <i class="fa-solid fa-location-dot"></i> Evergreen, 14 Jakarta, Indonesia</p>
+                      </div>
+                      <p class="book-mark"><i class="fa-solid fa-bookmark"></i></p>
+                    </div>
+
+                    <hr style="margin-top: 8px; margin-bottom: 8px;">
+
+                    <div class="sub-position-profile">
+                        <p class="posi">$367.00<span>/month</span></p>
+                        <p class="socio"><i class="fa-solid fa-star" style="color: gold;"></i> <span>4.9/5</span></p>
+                    </div>
+                </div>
+                <p class="top-head">Home</p>
+              </div>
+
+              <div class="sub-child-3-bottom">
+                <img src="./images/3.jpg" alt="">
+                <div class="position-profile">
+                    <div class="sub-position-profile">
+                      <div class="sub-position-profile-1">
+                        <p class="name"> Dream House Reality</p>
+                        <p class="sub-name"> <i class="fa-solid fa-location-dot"></i> Evergreen, 14 Jakarta, Indonesia</p>
+                      </div>
+                      <p class="book-mark"><i class="fa-solid fa-bookmark"></i></p>
+                    </div>
+
+                    <hr style="margin-top: 8px; margin-bottom: 8px;">
+
+                    <div class="sub-position-profile">
+                        <p class="posi">$367.00<span>/month</span></p>
+                        <p class="socio"><i class="fa-solid fa-star" style="color: gold;"></i> <span>4.9/5</span></p>
+                    </div>
+                </div>
+                <p class="top-head top-head1">Apartment</p>
+              </div>
+
+              <div class="sub-child-3-bottom">
+                <img src="./images/3.jpg" alt="">
+                <div class="position-profile">
+                    <div class="sub-position-profile">
+                      <div class="sub-position-profile-1">
+                        <p class="name"> Dream House Reality</p>
+                        <p class="sub-name"> <i class="fa-solid fa-location-dot"></i> Evergreen, 14 Jakarta, Indonesia</p>
+                      </div>
+                      <p class="book-mark"><i class="fa-solid fa-bookmark"></i></p>
+                    </div>
+
+                    <hr style="margin-top: 8px; margin-bottom: 8px;">
+
+                    <div class="sub-position-profile">
+                        <p class="posi">$367.00<span>/month</span></p>
+                        <p class="socio"><i class="fa-solid fa-star" style="color: gold;"></i> <span>4.9/5</span></p>
+                    </div>
+                </div>
+                <p class="top-head top-head2">Villa</p>
+              </div>
+
+              <div class="sub-child-3-bottom">
+                <img src="./images/3.jpg" alt="">
+                <div class="position-profile">
+                    <div class="sub-position-profile">
+                      <div class="sub-position-profile-1">
+                        <p class="name"> Dream House Reality</p>
+                        <p class="sub-name"> <i class="fa-solid fa-location-dot"></i> Evergreen, 14 Jakarta, Indonesia</p>
+                      </div>
+                      <p class="book-mark"><i class="fa-solid fa-bookmark"></i></p>
+                    </div>
+
+                    <hr style="margin-top: 8px; margin-bottom: 8px;">
+
+                    <div class="sub-position-profile">
+                        <p class="posi">$367.00<span>/month</span></p>
+                        <p class="socio"><i class="fa-solid fa-star" style="color: gold;"></i> <span>4.9/5</span></p>
+                    </div>
+                </div>
+                <p class="top-head">Home</p>
+              </div>
+
+              <div class="sub-child-3-bottom">
+                <img src="./images/3.jpg" alt="">
+                <div class="position-profile">
+                    <div class="sub-position-profile">
+                      <div class="sub-position-profile-1">
+                        <p class="name"> Dream House Reality</p>
+                        <p class="sub-name"> <i class="fa-solid fa-location-dot"></i> Evergreen, 14 Jakarta, Indonesia</p>
+                      </div>
+                      <p class="book-mark"><i class="fa-solid fa-bookmark"></i></p>
+                    </div>
+
+                    <hr style="margin-top: 8px; margin-bottom: 8px;">
+
+                    <div class="sub-position-profile">
+                        <p class="posi">$367.00<span>/month</span></p>
+                        <p class="socio"><i class="fa-solid fa-star" style="color: gold;"></i> <span>4.9/5</span></p>
+                    </div>
+                </div>
+                <p class="top-head top-head1">Apartment</p>
+              </div>
+
+              <div class="sub-child-3-bottom">
+                <img src="./images/3.jpg" alt="">
+                <div class="position-profile">
+                    <div class="sub-position-profile">
+                      <div class="sub-position-profile-1">
+                        <p class="name"> Dream House Reality</p>
+                        <p class="sub-name"> <i class="fa-solid fa-location-dot"></i> Evergreen, 14 Jakarta, Indonesia</p>
+                      </div>
+                      <p class="book-mark"><i class="fa-solid fa-bookmark"></i></p>
+                    </div>
+
+                    <hr style="margin-top: 8px; margin-bottom: 8px;">
+
+                    <div class="sub-position-profile">
+                        <p class="posi">$367.00<span>/month</span></p>
+                        <p class="socio"><i class="fa-solid fa-star" style="color: gold;"></i> <span>4.9/5</span></p>
+                    </div>
+                </div>
+                <p class="top-head top-head2">Villa</p>
+              </div>
+
+            </div>
+            <!-- middle child end -->
+
+
+            <!-- right child start -->
+             <div class="right-child">
+
+                <div class="sub-right-child">
+
+                    <div class="three-image">
+                      <div class="one">
+                        <img src="./images/one-house.jpg" alt="">
+                      </div>
+                      <div class="two">
+                        <img src="./images/3.jpg" alt="">
+                        <img src="./images/3.jpg" alt="">
+                      </div>
+                    </div>
+
+                    <div class="three-content">
+                      <div class="sub-three-content">
+                        <p class="same-name">Midnight Ridge Villa</p>
+                        <p class="sub-same-name"> <i class="fa-solid fa-location-dot"></i> Evergreen, 14 Jakarta, Indonesia</p>
+                      </div>
+                      <p class="same-posi">$367.00<span>/month</span></p>
+                    </div>
+
+                    <div class="three-buttons">
+                      <button id="overview" onclick="overview()">Overview</button>
+                      <button id="review" onclick="review()">Reviews</button>
+                      <button id="about" onclick="about()">About</button>
+                    </div>
+
+                    <div class="description">
+                      <p  class="description-1">Description :</p>
+                      <p class="description-2">Welcome to Midnight Ridge Villa Experience a peacful escape at Midnight ridge Villa, a modern retreat set on a quiet hillside with stunning views of valleys and starry nigts.</p>
+                    </div>
+
+                    <div class="six">
+                      <p class="sub-six"><i class="fa-solid fa-door-closed"></i> 6 Rooms</p>
+                      <p class="sub-six"><i class="fa-solid fa-bed"></i> 4 Beds</p>
+                      <p class="sub-six"><i class="fa-solid fa-bath"></i> 2 Baths</p>
+                      <p class="sub-six"><i class="fa-solid fa-kitchen-set"></i> 2 Kitchen</p>
+                      <p class="sub-six"><i class="fa-solid fa-square"></i> 2.820 sqft</p>
+                      <p class="sub-six"><i class="fa-solid fa-warehouse"></i> 1 Garage</p>
+                    </div>
+
+                    <div class="two-btn">
+                      <button class="contact-btn">Contact Agent</button>
+                      <button class="order-btn">Order Now</button>
+                    </div>
+
+                    <div class="map">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31510.60138855859!2d77.85203909569799!3d9.170238217383115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06b26570998f29%3A0xd95cda8fab23619b!2sKovilpatti%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1755764304864!5m2!1sen!2sin"   style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                </div>
+
+             </div>
+            <!-- right child end -->
+
+
+
+        </div>
+        <!-- child end -->
+
+    </div>
+    <!-- parent end -->
+
+
+
+    <script>
+
+      overview_1 = document.getElementById('overview');
+      review_1 = document.getElementById('review');
+      about_1 = document.getElementById('about');
+
+      function overview() {
+          overview_1.style.borderBottom = "2px solid #07ABBE";
+          overview_1.style.color = "black";
+
+          review_1.style.borderBottom = "none";
+          review_1.style.color = "gray";
+
+          about_1.style.borderBottom = "none";
+          about_1.style.color = "gray";
+      }
+
+      function review() {
+          overview_1.style.borderBottom = "none";
+          overview_1.style.color = "gray";
+
+          review_1.style.borderBottom = "2px solid #07ABBE";
+          review_1.style.color = "black";
+
+          about_1.style.borderBottom = "none";
+          about_1.style.color = "gray";
+      }
+
+      function about() {
+          overview_1.style.borderBottom = "none";
+          overview_1.style.color = "gray";
+
+          review_1.style.borderBottom = "none";
+          review_1.style.color = "gray";
+
+          about_1.style.borderBottom = "2px solid #07ABBE";
+          about_1.style.color = "black";
+      }
+
+    </script>
+
+
+
+    <!-- footer start -->
+    <!-- <footer>
+      <div class="footer-container">
+
+        <div class="footer-section">
+          <h4>Nivak Housing</h4>
+          <ul>
+            <li><a href="../care+/index.html">Embark on a Journey of Discovery</a></li>
+            <li><a href="../course/index.php">with <span>Nivak Housing's</span> Comprehensive</a></li>
+            <li><a href="../tution/index.php">Oveerview. Delve into Our</a></li>
+            <li><a href="../crash course/index.php">Commitment to Excellence.</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a class="main-link" href="../about/index.php">Home</a></li>
+            <li><a class="main-link" href="../franchaise/index.php">About Us</a></li>
+            <li><a class="main-link" href="../tutor-profile/index.php">Residential Plots</a></li>
+            <li><a class="main-link" href="../tutor-profile/index.php">Project</a></li>
+            <li><a class="main-link" href="../tutor-profile/index.php">Gallery</a></li>
+            <li><a class="main-link" href="../tutor/index.php">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Others</h4>
+          <ul>
+            <li><a class="main-link" href="../about/index.php">Property Service</a></li>
+            <li><a class="main-link" href="../franchaise/index.php">N Reels</a></li>
+            <li><a class="main-link" href="../tutor/index.php">Post Property</a></li>
+            <li><a class="main-link" href="../tutor-profile/index.php">Our Team</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Get in Touch</h4>
+          <ul>
+            <li><a href="tel:94866 59676"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;94866 59676</a></li>
+            <li><a href="mailto:nskcacademy@gmail.com"><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;nskcacademy@gmail.com</a></li>
+            <li><a href="#"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;<b>Head Office : </b>85/1/R, South Bazzar, Kovilpatti.</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <hr>
+
+      <div class="copy-right">
+        <p>©Copyright NSKC 2025</p>
+
+        <div class="sub-copy">
+          <a href="">Privacy Policy</a>
+          <a href="">Blog</a>
+          <a href="">Testimonial</a>
+          <a href="">Terms & Conditions</a>
+          <a href="">Help Center</a>
+        </div>
+      </div>
+
+    </footer> -->
+    <!-- footer end -->
+
+</body>
+
+</html>
